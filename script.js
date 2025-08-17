@@ -1,6 +1,7 @@
 // your JS code here. If required.
 
-document.getElementById("userform").addEventListener("submit", function () {
+document.getElementById("userform").addEventListener("submit", function (event) {
+	event.preventDefault();
 	let ageInput = document.getElementById("age").value.trim();
 	let nameInput = document.getElementById("name").value.trim();
 
