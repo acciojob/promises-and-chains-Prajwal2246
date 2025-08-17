@@ -20,7 +20,7 @@ document.getElementById("btn").addEventListener("click", function () {
 				} else {
 					reject(`Oh sorry ${name}. You aren't old enough.`);
 				}
-			}, 4000);
+			});
 		});
 	};
 
