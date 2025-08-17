@@ -1,6 +1,6 @@
 // your JS code here. If required.
 
-document.getElementById("userform").addEventListener("click", function () {
+document.getElementById("userform").addEventListener("submit", function () {
 	let ageInput = document.getElementById("age").value.trim();
 	let nameInput = document.getElementById("name").value.trim();
 
