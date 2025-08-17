@@ -21,7 +21,7 @@ document.getElementById("userform").addEventListener("submit", function (event) 
 				} else {
 					reject(`Oh sorry ${name}. You aren't old enough.`);
 				}
-			});
+			},4000);
 		});
 	};
 
